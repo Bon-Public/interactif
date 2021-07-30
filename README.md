@@ -1,5 +1,15 @@
 # interactif
 
+# Stack
+
+**Back**
+Meteor.JS API
+MongoDB
+
+**Front**
+React
+
+
 
 ## MVP
 ### User scenario :
