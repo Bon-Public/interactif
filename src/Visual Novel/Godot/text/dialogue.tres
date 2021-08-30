@@ -1,0 +1,51 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/saywhat_godot/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+lines = {
+"2fb634ac-2561-4de5-b068-a544d44bf58e": {
+"id": "2fb634ac-2561-4de5-b068-a544d44bf58e",
+"responses": [ {
+"next_node_id": "",
+"prompt": "Hi, Bob."
+}, {
+"next_node_id": "a84e3a23-1357-46e1-ae00-b3cb83d0707e",
+"prompt": "Who are you?"
+} ],
+"type": "responses"
+},
+"4a778ddc-1932-4eec-93fa-e070ad0f768e": {
+"id": "4a778ddc-1932-4eec-93fa-e070ad0f768e",
+"responses": [ {
+"next_node_id": "",
+"prompt": "No. Goodbye, weirdo."
+} ],
+"type": "responses"
+},
+"774cab27-2038-493d-b486-a70244af8f58": {
+"character": "Bob",
+"dialogue": "Fancy seeing you here.",
+"go_to_node_id": "",
+"id": "774cab27-2038-493d-b486-a70244af8f58",
+"next_node_id": "2fb634ac-2561-4de5-b068-a544d44bf58e",
+"type": "dialogue"
+},
+"796b8e70-78c0-4138-ac7e-a5a75ea51de2": {
+"character": "Bob",
+"dialogue": "Hello",
+"go_to_node_id": "",
+"id": "796b8e70-78c0-4138-ac7e-a5a75ea51de2",
+"next_node_id": "774cab27-2038-493d-b486-a70244af8f58",
+"type": "dialogue"
+},
+"a84e3a23-1357-46e1-ae00-b3cb83d0707e": {
+"character": "Bob",
+"dialogue": "I'm your friend, Bob! Don't you remember me?",
+"go_to_node_id": "",
+"id": "a84e3a23-1357-46e1-ae00-b3cb83d0707e",
+"next_node_id": "4a778ddc-1932-4eec-93fa-e070ad0f768e",
+"type": "dialogue"
+}
+}
