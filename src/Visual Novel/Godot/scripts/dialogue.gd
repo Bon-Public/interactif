@@ -1,6 +1,7 @@
 extends Control
 
 export (PackedScene) var response
+export (String) var first_line = ""
 
 var currentDialogue:DialogueLine
 
@@ -10,7 +11,7 @@ func _ready():
 	DialogueManager.resource = preload("res://text/dialogue.tres")
 	DialogueManager.game_state = self
 	
-	next_line("796b8e70-78c0-4138-ac7e-a5a75ea51de2")
+	next_line(first_line)
 
 func _input(event):
 	if event.is_action_pressed("ui_accept") and currentDialogue.type == "dialogue" and currentDialogue.responses.size() == 0:
@@ -62,3 +63,10 @@ func end():
 
 func _on_line_text_fully_visible():
 	$responses.show()
+
+func load_scene(scene_name):
+	var scene_path = "res://scenes/" + scene_name[0] + ".tscn"
+	if ResourceLoader.exists(scene_path):
+		get_tree().change_scene(scene_path)
+	else:
+		printerr("Scene not found: " + scene_path)

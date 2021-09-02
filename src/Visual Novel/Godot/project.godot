@@ -42,7 +42,7 @@ DialogueManager="*res://addons/saywhat_godot/dialogue_manager.gd"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/saywhat_godot/plugin.cfg" )
+enabled=PoolStringArray(  )
 
 [physics]
 
