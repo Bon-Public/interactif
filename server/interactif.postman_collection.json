@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "4c0741e1-7a04-46f4-9a05-1e1c8771ce44",
+		"name": "interactif",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "effects",
+			"item": [
+				{
+					"name": "masks",
+					"item": [
+						{
+							"name": "pitterboxing",
+							"item": [
+								{
+									"name": "Get pitterboxing values",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:5000/api/effects/mask/pitterboxing",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "5000",
+											"path": [
+												"api",
+												"effects",
+												"mask",
+												"pitterboxing"
+											],
+											"query": [
+												{
+													"key": "letterboxing",
+													"value": "2",
+													"disabled": true
+												},
+												{
+													"key": "pillarboxing",
+													"value": "3",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Reset pitterboxing",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:5000/api/effects/mask/pitterboxing",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "5000",
+											"path": [
+												"api",
+												"effects",
+												"mask",
+												"pitterboxing"
+											],
+											"query": [
+												{
+													"key": "letterboxing",
+													"value": "2",
+													"disabled": true
+												},
+												{
+													"key": "pillarboxing",
+													"value": "3",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update pitterboxing infos",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "letterboxing",
+													"value": "3",
+													"type": "text"
+												},
+												{
+													"key": "pillarboxing",
+													"value": "2",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "http://localhost:5000/api/effects/mask/pitterboxing",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "5000",
+											"path": [
+												"api",
+												"effects",
+												"mask",
+												"pitterboxing"
+											],
+											"query": [
+												{
+													"key": "letterboxing",
+													"value": "2",
+													"disabled": true
+												},
+												{
+													"key": "pillarboxing",
+													"value": "3",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
