@@ -25,10 +25,12 @@ The user can crop the image on the left or the right
 #### Routes
 v2 /api/room/check => checks if the room is created and available
 
-**v1 /api/effects/mask**
+**v1 /api/effects/mask/pitterboxing**
 POST
 params :
-squeeze : boolean
+letterboxing : integer
+pillarboxing : integer
+
 
 returns :
 status 200
