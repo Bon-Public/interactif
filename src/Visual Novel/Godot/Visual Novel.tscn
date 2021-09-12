@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://visual novel.tres" type="Theme" id=1]
+[ext_resource path="res://scripts/dialogue.gd" type="Script" id=2]
+[ext_resource path="res://interface/response.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/line.gd" type="Script" id=4]
+[ext_resource path="res://assets/graphics/backgrounds/gloomy office.jpg" type="Texture" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+response = ExtResource( 3 )
+
+[node name="gloomy office" type="Sprite" parent="Control"]
+position = Vector2( 510.5, 300.5 )
+scale = Vector2( 2.32648, 2.30888 )
+texture = ExtResource( 5 )
+
+[node name="bg" type="ColorRect" parent="Control"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="line" type="RichTextLabel" parent="Control"]
+margin_left = 33.0
+margin_top = 338.0
+margin_right = 956.0
+margin_bottom = 555.0
+mouse_filter = 2
+theme = ExtResource( 1 )
+visible_characters = 0
+percent_visible = 0.0
+text = "Lorem Ipsum"
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tween" type="Tween" parent="Control/line"]
+
+[node name="responses" type="VBoxContainer" parent="Control"]
+margin_left = 594.0
+margin_top = 196.0
+margin_right = 737.0
+margin_bottom = 339.0
+size_flags_vertical = 11
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="text_fully_visible" from="Control/line" to="Control" method="_on_line_text_fully_visible"]

@@ -1,0 +1,61 @@
+{
+    "bfeaa97a-80cd-4747-b6fd-d32402fe7607":
+    {
+        "id": "bfeaa97a-80cd-4747-b6fd-d32402fe7607",
+        "nodes":
+        {
+            "796b8e70-78c0-4138-ac7e-a5a75ea51de2":
+            {
+                "id": "796b8e70-78c0-4138-ac7e-a5a75ea51de2",
+                "type": "dialogue",
+                "character": "Bob",
+                "dialogue": "Hello",
+                "nextNodeId": "61236a74-1720-4716-a636-5f3e45c565db"
+            },
+            "61236a74-1720-4716-a636-5f3e45c565db":
+            {
+                "id": "61236a74-1720-4716-a636-5f3e45c565db",
+                "type": "dialogue",
+                "character": "Bob",
+                "dialogue": "Fancy seeing you here.",
+                "nextNodeId": "c3f4490c-a28f-4ba8-a862-486c71874cc6"
+            },
+            "c3f4490c-a28f-4ba8-a862-486c71874cc6":
+            {
+                "id": "c3f4490c-a28f-4ba8-a862-486c71874cc6",
+                "type": "responses",
+                "responses":
+                [
+                    {
+                        "prompt": "Hi, Bob.",
+                        "nextNodeId": null
+                    },
+                    {
+                        "prompt": "Who are you?",
+                        "nextNodeId": "a84e3a23-1357-46e1-ae00-b3cb83d0707e"
+                    }
+                ]
+            },
+            "a84e3a23-1357-46e1-ae00-b3cb83d0707e":
+            {
+                "id": "a84e3a23-1357-46e1-ae00-b3cb83d0707e",
+                "type": "dialogue",
+                "character": "Bob",
+                "dialogue": "I'm your friend, Bob! Don't you remember me?",
+                "nextNodeId": "4a778ddc-1932-4eec-93fa-e070ad0f768e"
+            },
+            "4a778ddc-1932-4eec-93fa-e070ad0f768e":
+            {
+                "id": "4a778ddc-1932-4eec-93fa-e070ad0f768e",
+                "type": "responses",
+                "responses":
+                [
+                    {
+                        "prompt": "No. Goodbye, weirdo.",
+                        "nextNodeId": null
+                    }
+                ]
+            }
+        }
+    }
+}

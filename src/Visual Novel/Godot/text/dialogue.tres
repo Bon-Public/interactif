@@ -1,0 +1,417 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/saywhat_godot/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+lines = {
+"19638c23-b169-4866-b22f-761fbc1ffea1": {
+"character": "Interphone",
+"dialogue": "Tous mes camarades de classe étaient droitiers, et n'avaient aucunement besoin de papier buvard.",
+"go_to_node_id": "",
+"id": "19638c23-b169-4866-b22f-761fbc1ffea1",
+"next_node_id": "69862561-ed22-4c67-9342-8a45f028234b",
+"type": "dialogue"
+},
+"1ce5e1cc-9198-42ac-a0b9-e8d34fbd52aa": {
+"character": "PDG-MAN",
+"dialogue": "Merci beaucoup Monsieur. Et à très bientôt !",
+"go_to_node_id": "",
+"id": "1ce5e1cc-9198-42ac-a0b9-e8d34fbd52aa",
+"next_node_id": "2f8b478d-c14f-48ab-85a4-cd1fd5c9ef3c",
+"type": "dialogue"
+},
+"1ec39bb9-efbb-48bf-aeb3-b56bef5904db": {
+"character": "PDG-MAN",
+"dialogue": "du coup, heu, vous pensez que, heu, qu'on pourrait apporter plus de, vous savez, comme les cuisses qui trempent dans la transpiration...",
+"go_to_node_id": "",
+"id": "1ec39bb9-efbb-48bf-aeb3-b56bef5904db",
+"next_node_id": "8a1e47cb-cbec-4827-98f0-f3eeb3621dee",
+"type": "dialogue"
+},
+"2d4a69bc-d750-4bc4-abb3-aa7da578edde": {
+"id": "2d4a69bc-d750-4bc4-abb3-aa7da578edde",
+"responses": [ {
+"next_node_id": "9d76dc58-b77b-4895-89c1-26d1d28e09f2",
+"prompt": ""
+} ],
+"type": "responses"
+},
+"2f8b478d-c14f-48ab-85a4-cd1fd5c9ef3c": {
+"id": "2f8b478d-c14f-48ab-85a4-cd1fd5c9ef3c",
+"responses": [ {
+"next_node_id": "73f027e4-8177-4a65-8d39-038485e99f09",
+"prompt": "Au revoir."
+} ],
+"type": "responses"
+},
+"2fb634ac-2561-4de5-b068-a544d44bf58e": {
+"id": "2fb634ac-2561-4de5-b068-a544d44bf58e",
+"responses": [ {
+"next_node_id": "",
+"prompt": "Hi, Bob."
+}, {
+"next_node_id": "a84e3a23-1357-46e1-ae00-b3cb83d0707e",
+"prompt": "Who are you?"
+} ],
+"type": "responses"
+},
+"37068c86-a24f-4f82-8709-0619fb876b6a": {
+"character": "PUB-MAN",
+"dialogue": "Avec DENTONTAL, le PREMIER dentifrice sous souscription...",
+"go_to_node_id": "",
+"id": "37068c86-a24f-4f82-8709-0619fb876b6a",
+"next_node_id": "90dd7186-151a-4171-a8c9-e14fc7c8c7aa",
+"type": "dialogue"
+},
+"3855ff76-5185-4e11-9f83-dfe77538479d": {
+"character": "PUB-WOMAN",
+"dialogue": "Pas comme là.",
+"go_to_node_id": "",
+"id": "3855ff76-5185-4e11-9f83-dfe77538479d",
+"next_node_id": "73b700b2-0cd4-49e2-8ae6-c9543d747e8e",
+"type": "dialogue"
+},
+"3b086654-3d3c-4f22-a940-cdc6f3ebcda4": {
+"id": "3b086654-3d3c-4f22-a940-cdc6f3ebcda4",
+"responses": [ {
+"next_node_id": "9ca7d505-310b-497d-aba4-2a9996cf0310",
+"prompt": "Tu l'as dit."
+} ],
+"type": "responses"
+},
+"3c13c6e6-3a7f-4c70-abb9-c610f1d8eee8": {
+"character": "Interphone",
+"dialogue": "Et du papier buvard, dans ma classe de CM2, que j'utilisais gauchement.",
+"go_to_node_id": "",
+"id": "3c13c6e6-3a7f-4c70-abb9-c610f1d8eee8",
+"next_node_id": "551a8711-04d8-4634-8f36-28be436669ff",
+"type": "dialogue"
+},
+"4539af19-db33-48cf-9728-f648bc3a5444": {
+"character": "Interphone",
+"dialogue": "Je suis gauchère.",
+"go_to_node_id": "",
+"id": "4539af19-db33-48cf-9728-f648bc3a5444",
+"next_node_id": "19638c23-b169-4866-b22f-761fbc1ffea1",
+"type": "dialogue"
+},
+"4a778ddc-1932-4eec-93fa-e070ad0f768e": {
+"id": "4a778ddc-1932-4eec-93fa-e070ad0f768e",
+"responses": [ {
+"next_node_id": "",
+"prompt": "No. Goodbye, weirdo."
+} ],
+"type": "responses"
+},
+"4f02aae1-2195-4c6e-9e04-f05086926f08": {
+"character": "Interphone",
+"dialogue": "Je crois que ça n'a jamais été facile, en fait.",
+"go_to_node_id": "",
+"id": "4f02aae1-2195-4c6e-9e04-f05086926f08",
+"next_node_id": "3b086654-3d3c-4f22-a940-cdc6f3ebcda4",
+"type": "dialogue"
+},
+"551a8711-04d8-4634-8f36-28be436669ff": {
+"character": "Interphone",
+"dialogue": "Littéralement.",
+"go_to_node_id": "",
+"id": "551a8711-04d8-4634-8f36-28be436669ff",
+"next_node_id": "4539af19-db33-48cf-9728-f648bc3a5444",
+"type": "dialogue"
+},
+"5a8a1fc3-6e7a-454c-b2e8-b51368adee42": {
+"character": "PDG-MAN",
+"dialogue": "Merci beaucoup Monsieur. Et à très bientôt !",
+"go_to_node_id": "",
+"id": "5a8a1fc3-6e7a-454c-b2e8-b51368adee42",
+"next_node_id": "bc4057d5-18d4-4230-b51c-f3c0b5eee36a",
+"type": "dialogue"
+},
+"5e1583d7-4966-404b-b0e7-e5677bfe490e": {
+"character": "Interphone",
+"dialogue": "Une journée difficile ?",
+"go_to_node_id": "",
+"id": "5e1583d7-4966-404b-b0e7-e5677bfe490e",
+"next_node_id": "fc783995-0d58-4cd3-93ce-6e9c132f87b3",
+"type": "dialogue"
+},
+"62ea7c27-23b2-437d-874c-87a182c7f027": {
+"character": "PUB-MAN & PUB-WOMAN",
+"dialogue": "ABONNEZ-VOUS A DENTONTAL",
+"go_to_node_id": "",
+"id": "62ea7c27-23b2-437d-874c-87a182c7f027",
+"next_node_id": "ea757a4c-c26f-4a6b-a46d-e9357b9f0d13",
+"type": "dialogue"
+},
+"69862561-ed22-4c67-9342-8a45f028234b": {
+"character": "Interphone",
+"dialogue": "Quand on y pense, c'est tout un ordre socio-anthropologique établi et régi dans l'objectif de favoriser",
+"go_to_node_id": "",
+"id": "69862561-ed22-4c67-9342-8a45f028234b",
+"next_node_id": "",
+"type": "dialogue"
+},
+"69d647c7-a926-4ea3-89d5-35c2657fdc34": {
+"character": "Interphone",
+"dialogue": "123456789A0B.",
+"go_to_node_id": "",
+"id": "69d647c7-a926-4ea3-89d5-35c2657fdc34",
+"next_node_id": "b3b00c4e-8876-49df-a18a-3b162096b990",
+"type": "dialogue"
+},
+"6f615fd9-a902-4b9a-a9b6-03a740930ed1": {
+"character": "Interhpone",
+"dialogue": "Et pourquoi pas ?",
+"go_to_node_id": "",
+"id": "6f615fd9-a902-4b9a-a9b6-03a740930ed1",
+"next_node_id": "bb9b87c3-1678-4705-ade0-24938d456af7",
+"type": "dialogue"
+},
+"7114f720-503e-41ef-a644-835c0be478a1": {
+"character": "Player",
+"dialogue": "Cuisses.",
+"go_to_node_id": "",
+"id": "7114f720-503e-41ef-a644-835c0be478a1",
+"next_node_id": "",
+"type": "dialogue"
+},
+"73b700b2-0cd4-49e2-8ae6-c9543d747e8e": {
+"character": "PUB-WOMAN",
+"dialogue": "Vos dents-là.",
+"go_to_node_id": "",
+"id": "73b700b2-0cd4-49e2-8ae6-c9543d747e8e",
+"next_node_id": "f4c0c010-7f73-4569-b117-5ec0385451bb",
+"type": "dialogue"
+},
+"73f027e4-8177-4a65-8d39-038485e99f09": {
+"go_to_node_id": "",
+"id": "73f027e4-8177-4a65-8d39-038485e99f09",
+"mutation": "load_scene RetourMaison",
+"next_node_id": "e198bbd0-9e11-4ce1-b2c4-9641f79a2095",
+"type": "mutation"
+},
+"774cab27-2038-493d-b486-a70244af8f58": {
+"character": "Bob",
+"dialogue": "Fancy seeing you here.",
+"go_to_node_id": "",
+"id": "774cab27-2038-493d-b486-a70244af8f58",
+"next_node_id": "2fb634ac-2561-4de5-b068-a544d44bf58e",
+"type": "dialogue"
+},
+"781781b3-82bb-445b-8f10-9c957caa1ee1": {
+"id": "781781b3-82bb-445b-8f10-9c957caa1ee1",
+"responses": [ {
+"next_node_id": "",
+"prompt": ""
+} ],
+"type": "responses"
+},
+"796b8e70-78c0-4138-ac7e-a5a75ea51de2": {
+"character": "Bob",
+"dialogue": "Hello",
+"go_to_node_id": "",
+"id": "796b8e70-78c0-4138-ac7e-a5a75ea51de2",
+"next_node_id": "774cab27-2038-493d-b486-a70244af8f58",
+"type": "dialogue"
+},
+"8a1e47cb-cbec-4827-98f0-f3eeb3621dee": {
+"character": "PDG-MAN",
+"dialogue": "de baigner en fait dans le liquide du plaisir?",
+"go_to_node_id": "",
+"id": "8a1e47cb-cbec-4827-98f0-f3eeb3621dee",
+"next_node_id": "b78f334e-8d64-4f4b-a602-ee743c6e97a4",
+"type": "dialogue"
+},
+"90dd7186-151a-4171-a8c9-e14fc7c8c7aa": {
+"character": "PUB-MAN",
+"dialogue": "Vos dents sont propres.",
+"go_to_node_id": "",
+"id": "90dd7186-151a-4171-a8c9-e14fc7c8c7aa",
+"next_node_id": "3855ff76-5185-4e11-9f83-dfe77538479d",
+"type": "dialogue"
+},
+"9ca7d505-310b-497d-aba4-2a9996cf0310": {
+"character": "Interphone",
+"dialogue": "Je me souviens de quand j'étais petite.",
+"go_to_node_id": "",
+"id": "9ca7d505-310b-497d-aba4-2a9996cf0310",
+"next_node_id": "3c13c6e6-3a7f-4c70-abb9-c610f1d8eee8",
+"type": "dialogue"
+},
+"9d76dc58-b77b-4895-89c1-26d1d28e09f2": {
+"character": "Interphone",
+"dialogue": "La vie n'est pas facile en ce moment.",
+"go_to_node_id": "",
+"id": "9d76dc58-b77b-4895-89c1-26d1d28e09f2",
+"next_node_id": "4f02aae1-2195-4c6e-9e04-f05086926f08",
+"type": "dialogue"
+},
+"a84e3a23-1357-46e1-ae00-b3cb83d0707e": {
+"character": "Bob",
+"dialogue": "I'm your friend, Bob! Don't you remember me?",
+"go_to_node_id": "",
+"id": "a84e3a23-1357-46e1-ae00-b3cb83d0707e",
+"next_node_id": "4a778ddc-1932-4eec-93fa-e070ad0f768e",
+"type": "dialogue"
+},
+"a8a5421f-8d7f-4dcd-8cce-35fa19f8cf39": {
+"character": "PDG-MAN ",
+"dialogue": "Alors, qu'en pensez-vous ?",
+"go_to_node_id": "",
+"id": "a8a5421f-8d7f-4dcd-8cce-35fa19f8cf39",
+"next_node_id": "fcee9935-8bac-4598-ba76-3f44a802ebbc",
+"type": "dialogue"
+},
+"aa3c1b62-71fe-4a94-b0b6-dc5538459cbc": {
+"character": "PDG-MAN",
+"dialogue": "Des cuisses ? Quelles excellente idée !",
+"go_to_node_id": "",
+"id": "aa3c1b62-71fe-4a94-b0b6-dc5538459cbc",
+"next_node_id": "1ce5e1cc-9198-42ac-a0b9-e8d34fbd52aa",
+"type": "dialogue"
+},
+"b3b00c4e-8876-49df-a18a-3b162096b990": {
+"id": "b3b00c4e-8876-49df-a18a-3b162096b990",
+"responses": [ {
+"next_node_id": "b4180541-837d-4fb0-baaa-86043cfd60fb",
+"prompt": "5302B"
+}, {
+"next_node_id": "b4180541-837d-4fb0-baaa-86043cfd60fb",
+"prompt": "12057A"
+}, {
+"next_node_id": "b4180541-837d-4fb0-baaa-86043cfd60fb",
+"prompt": "Zbz48cvC6 V09 "
+}, {
+"next_node_id": "b4180541-837d-4fb0-baaa-86043cfd60fb",
+"prompt": "7"
+} ],
+"type": "responses"
+},
+"b4180541-837d-4fb0-baaa-86043cfd60fb": {
+"character": "Interphone",
+"dialogue": "Bonjour, Mos.",
+"go_to_node_id": "",
+"id": "b4180541-837d-4fb0-baaa-86043cfd60fb",
+"next_node_id": "e2bbf980-e36c-47c8-bbfa-f1a639f97c21",
+"type": "dialogue"
+},
+"b5095475-6473-4d46-8d6c-31f7acb7d0ab": {
+"character": "PDG-MAN",
+"dialogue": "EXCELLENT !",
+"go_to_node_id": "",
+"id": "b5095475-6473-4d46-8d6c-31f7acb7d0ab",
+"next_node_id": "5a8a1fc3-6e7a-454c-b2e8-b51368adee42",
+"type": "dialogue"
+},
+"b78f334e-8d64-4f4b-a602-ee743c6e97a4": {
+"id": "b78f334e-8d64-4f4b-a602-ee743c6e97a4",
+"responses": [ {
+"next_node_id": "aa3c1b62-71fe-4a94-b0b6-dc5538459cbc",
+"prompt": "Les cuisses ?..."
+}, {
+"next_node_id": "f1cf71b4-b784-467d-a627-933149a97cd5",
+"prompt": "C'est pas un peu beaucoup pour du dentifrice ?"
+}, {
+"next_node_id": "b5095475-6473-4d46-8d6c-31f7acb7d0ab",
+"prompt": "J'aime beaucoup votre idée..."
+} ],
+"type": "responses"
+},
+"bb9b87c3-1678-4705-ade0-24938d456af7": {
+"character": "Interphone",
+"dialogue": "Moi aussi j'ai besoin de compagnie, tu sais ?",
+"go_to_node_id": "",
+"id": "bb9b87c3-1678-4705-ade0-24938d456af7",
+"next_node_id": "2d4a69bc-d750-4bc4-abb3-aa7da578edde",
+"type": "dialogue"
+},
+"bc4057d5-18d4-4230-b51c-f3c0b5eee36a": {
+"id": "bc4057d5-18d4-4230-b51c-f3c0b5eee36a",
+"responses": [ {
+"next_node_id": "73f027e4-8177-4a65-8d39-038485e99f09",
+"prompt": "Au revoir."
+} ],
+"type": "responses"
+},
+"cb71eeb4-2e28-4ab8-a818-7ba34ba9c785": {
+"character": "PDG-MAN",
+"dialogue": "Le sexe, ça vend, vous savez !",
+"go_to_node_id": "",
+"id": "cb71eeb4-2e28-4ab8-a818-7ba34ba9c785",
+"next_node_id": "a8a5421f-8d7f-4dcd-8cce-35fa19f8cf39",
+"type": "dialogue"
+},
+"e198bbd0-9e11-4ce1-b2c4-9641f79a2095": {
+"id": "e198bbd0-9e11-4ce1-b2c4-9641f79a2095",
+"responses": [ {
+"next_node_id": "",
+"prompt": "That is all"
+} ],
+"type": "responses"
+},
+"e2bbf980-e36c-47c8-bbfa-f1a639f97c21": {
+"character": "Interphone",
+"dialogue": "Vous paraissez fatigué ce soir.",
+"go_to_node_id": "",
+"id": "e2bbf980-e36c-47c8-bbfa-f1a639f97c21",
+"next_node_id": "5e1583d7-4966-404b-b0e7-e5677bfe490e",
+"type": "dialogue"
+},
+"ea757a4c-c26f-4a6b-a46d-e9357b9f0d13": {
+"id": "ea757a4c-c26f-4a6b-a46d-e9357b9f0d13",
+"responses": [ {
+"next_node_id": "fcc9a87b-103e-40ce-a1eb-0646715669ab",
+"prompt": "..."
+} ],
+"type": "responses"
+},
+"f1cf71b4-b784-467d-a627-933149a97cd5": {
+"character": "PDG-MAN",
+"dialogue": "Nonsense, mon cher !",
+"go_to_node_id": "",
+"id": "f1cf71b4-b784-467d-a627-933149a97cd5",
+"next_node_id": "cb71eeb4-2e28-4ab8-a818-7ba34ba9c785",
+"type": "dialogue"
+},
+"f4c0c010-7f73-4569-b117-5ec0385451bb": {
+"character": "PUB-WOMAN",
+"dialogue": "Elles sont sales.",
+"go_to_node_id": "",
+"id": "f4c0c010-7f73-4569-b117-5ec0385451bb",
+"next_node_id": "62ea7c27-23b2-437d-874c-87a182c7f027",
+"type": "dialogue"
+},
+"fc783995-0d58-4cd3-93ce-6e9c132f87b3": {
+"id": "fc783995-0d58-4cd3-93ce-6e9c132f87b3",
+"responses": [ {
+"next_node_id": "9d76dc58-b77b-4895-89c1-26d1d28e09f2",
+"prompt": "On peut dire ça. Et toi interphone, comment ça va ?"
+}, {
+"next_node_id": "6f615fd9-a902-4b9a-a9b6-03a740930ed1",
+"prompt": "Un interphone qui parle ?..."
+}, {
+"next_node_id": "9d76dc58-b77b-4895-89c1-26d1d28e09f2",
+"prompt": "Oui. Laisse-moi entrer s'il-te-plaît."
+} ],
+"type": "responses"
+},
+"fcc9a87b-103e-40ce-a1eb-0646715669ab": {
+"go_to_node_id": "",
+"id": "fcc9a87b-103e-40ce-a1eb-0646715669ab",
+"mutation": "load_scene Sondage",
+"next_node_id": "781781b3-82bb-445b-8f10-9c957caa1ee1",
+"type": "mutation"
+},
+"fcee9935-8bac-4598-ba76-3f44a802ebbc": {
+"id": "fcee9935-8bac-4598-ba76-3f44a802ebbc",
+"responses": [ {
+"next_node_id": "aa3c1b62-71fe-4a94-b0b6-dc5538459cbc",
+"prompt": "Heu les cuisses alors."
+}, {
+"next_node_id": "b5095475-6473-4d46-8d6c-31f7acb7d0ab",
+"prompt": "J'aime beaucoup votre idée..."
+} ],
+"type": "responses"
+}
+}

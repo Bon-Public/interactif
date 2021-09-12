@@ -1,0 +1,53 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Object",
+"class": "DialogueLine",
+"language": "GDScript",
+"path": "res://addons/saywhat_godot/dialogue_line.gd"
+}, {
+"base": "Resource",
+"class": "DialogueResource",
+"language": "GDScript",
+"path": "res://addons/saywhat_godot/dialogue_resource.gd"
+}, {
+"base": "Object",
+"class": "DialogueResponse",
+"language": "GDScript",
+"path": "res://addons/saywhat_godot/dialogue_response.gd"
+} ]
+_global_script_class_icons={
+"DialogueLine": "",
+"DialogueResource": "",
+"DialogueResponse": ""
+}
+
+[application]
+
+config/name="BP Visual Novel"
+run/main_scene="res://Visual Novel.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+DialogueManager="*res://addons/saywhat_godot/dialogue_manager.gd"
+
+[editor_plugins]
+
+enabled=PoolStringArray(  )
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
