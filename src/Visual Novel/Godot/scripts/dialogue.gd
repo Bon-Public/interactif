@@ -22,6 +22,7 @@ func next_line(next_id):
 	if currentDialogue == null: 
 		return
 	
+	print(currentDialogue.character)
 	$line.text = currentDialogue.dialogue
 	$line/tween.stop($line, "visible_characters")
 	$line.visible_characters = 0
