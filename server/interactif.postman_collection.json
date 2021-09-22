@@ -20,12 +20,10 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "http://localhost:5000/api/effects/mask/pitterboxing",
-											"protocol": "http",
+											"raw": "{{url}}/api/effects/mask/pitterboxing",
 											"host": [
-												"localhost"
+												"{{url}}"
 											],
-											"port": "5000",
 											"path": [
 												"api",
 												"effects",
@@ -54,12 +52,10 @@
 										"method": "DELETE",
 										"header": [],
 										"url": {
-											"raw": "http://localhost:5000/api/effects/mask/pitterboxing",
-											"protocol": "http",
+											"raw": "{{url}}/api/effects/mask/pitterboxing",
 											"host": [
-												"localhost"
+												"{{url}}"
 											],
-											"port": "5000",
 											"path": [
 												"api",
 												"effects",
@@ -103,12 +99,10 @@
 											]
 										},
 										"url": {
-											"raw": "http://localhost:5000/api/effects/mask/pitterboxing",
-											"protocol": "http",
+											"raw": "{{url}}/api/effects/mask/pitterboxing",
 											"host": [
-												"localhost"
+												"{{url}}"
 											],
-											"port": "5000",
 											"path": [
 												"api",
 												"effects",
@@ -132,6 +126,30 @@
 									"response": []
 								}
 							]
+						}
+					]
+				},
+				{
+					"name": "novel",
+					"item": [
+						{
+							"name": "Get novel status",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/novel/responses",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"novel",
+										"responses"
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				}
