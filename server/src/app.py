@@ -68,3 +68,20 @@ def pitterboxing():
         with open('store.json', 'w') as outfile:
             json.dump(data, outfile)
         return "pillarboxing has been reset"
+
+@app.route('/api/novel/responses', methods=['GET', 'POST', 'DELETE'])
+def novel():
+    if request.method == 'GET':
+        response = [
+            {
+                "id" : 1,
+                "text" : "Option 1",
+                "vote" : 10
+            },
+                        {
+                "id" : 1,
+                "text" : "Option 2",
+                "vote" : 12
+            }
+        ]
+        return jsonify(response)
