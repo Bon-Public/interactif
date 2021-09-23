@@ -74,13 +74,35 @@ def novel():
     if request.method == 'GET':
         response = [
             {
-                "id" : 1,
+                "id" : 0,
                 "text" : "Option 1",
                 "vote" : 10
             },
-                        {
+            {
                 "id" : 1,
                 "text" : "Option 2",
+                "vote" : 12
+            }
+        ]
+        return jsonify(response)
+    if request.method == 'POST':
+        option0 = request.form.get('option0')
+        option1 = request.form.get('option1')
+        option2 = request.form.get('option2')
+        response = [
+            {
+                "id" : 0,
+                "text" : option0,
+                "vote" : 10
+            },
+            {
+                "id" : 1,
+                "text" : option1,
+                "vote" : 12
+            },
+                        {
+                "id" : 2,
+                "text" : option2,
                 "vote" : 12
             }
         ]
