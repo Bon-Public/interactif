@@ -1,3 +1,9 @@
 [gd_scene format=2]
 
-[node name="Node2D" type="Node2D"]
+[node name="character name" type="Node2D"]
+
+[node name="neutral" type="Sprite" parent="."]
+
+[node name="sad" type="Sprite" parent="."]
+
+[node name="happy" type="Sprite" parent="."]
