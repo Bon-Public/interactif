@@ -31,7 +31,7 @@ def home():
 @app.route('/api/effects/mask/pitterboxing', methods=['GET', 'POST', 'DELETE'])
 def pitterboxing():
     if request.method == 'POST':
-        with open('store.json') as config_file:
+        with open('pitterboxing.json') as config_file:
             data = json.load(config_file)
         sumLetterboxing = int(data['sumLetterboxing'])
         sumPillarboxing = int(data['sumPillarboxing'])
@@ -44,7 +44,7 @@ def pitterboxing():
             "sumLetterboxing" : sumLetterboxing,
             "sumPillarboxing" : sumPillarboxing
         }
-        with open('store.json', 'w') as outfile:
+        with open('pitterboxing.json', 'w') as outfile:
             json.dump(data, outfile)
         return jsonify(
             letterboxing = sumLetterboxing,
@@ -52,7 +52,7 @@ def pitterboxing():
         )
     if request.method == 'GET':
         # Loading config file
-        with open('store.json') as config_file:
+        with open('pitterboxing.json') as config_file:
             data = json.load(config_file)
         sumLetterboxing = data['sumLetterboxing']
         sumPillarboxing = data['sumPillarboxing']
@@ -65,7 +65,7 @@ def pitterboxing():
             "sumLetterboxing" : 0,
             "sumPillarboxing" : 0
         }
-        with open('store.json', 'w') as outfile:
+        with open('pitterboxing.json', 'w') as outfile:
             json.dump(data, outfile)
         return "pillarboxing has been reset"
 
