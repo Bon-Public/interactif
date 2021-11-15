@@ -67,10 +67,6 @@ laravel ? react ?
 
 
 
-
-
-
-
 ## Media server
 ### chataigne 
 interface between the api and Resolume

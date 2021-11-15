@@ -23,7 +23,7 @@ func next_line(next_id):
 		return
 	
 	print(currentDialogue.character)
-	$line.text = currentDialogue.dialogue
+	$line.set_text(currentDialogue.dialogue)
 	$line/tween.stop($line, "visible_characters")
 	$line.visible_characters = 0
 	$line/tween.interpolate_property(
@@ -59,10 +59,12 @@ func clear_responses():
 func end():
 	print("END")
 	clear_responses()
-	$line.text = ""
+	$line.set_text("")
 	$line.hide()
 
 func _on_line_text_fully_visible():
+	$responses.modulate.a = 0
+	$"responses animation".play("appear")
 	$responses.show()
 
 func load_scene(scene_name):
