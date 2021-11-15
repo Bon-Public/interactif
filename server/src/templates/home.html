@@ -1,15 +1,22 @@
 <html>
     <head></head>
     <body>
-        <form>
-            <button onclick="pitterboxingIncrement" >Pitterboxing</button>
-            <button onclick="pillarboxingIncrement">Pillarboxing</button>
+        <h1>Debug Panel</h1>
+        <form id="pitterboxing-form" >
+            <h1>Pitterboxing</h1>
+            <button type="button" onclick="letterboxingIncrement()">Letterboxing</button>
+            <button type="button" onclick="pillarboxingIncrement()">Pillarboxing</button>
+            <div id="pitter-values">
+                <p>Pitterboxing Value : <span id="pitterboxing-value">0</span></p>
+                <p>Pillarboxing Value : <span id="pillarboxing-value">0</span></p>
+            </div>
+        </form>
+        <form id="visual-novel-form">
+
         </form>
 
-
-        <script>
-            
-        </script>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/pitterboxing.js') }}"></script>
 
     </body>
 </html>
