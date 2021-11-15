@@ -33,7 +33,7 @@ _global_script_class_icons={
 [application]
 
 config/name="BP Visual Novel"
-run/main_scene="res://Visual Novel.tscn"
+run/main_scene="res://scenes/Publicite.tscn"
 config/icon="res://icon.png"
 
 [autoload]
