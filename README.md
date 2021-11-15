@@ -1,14 +1,27 @@
 # interactif
 
-# Stack
+## install 
 
-**Back**
-Meteor.JS API
-MongoDB
+### server
 
-**Front**
-React
+#### manual install
+cd  into **server/src**
 
+install requirments with pip
+> pip install -r requirements.txt
+
+Run the server with 
+> flask run 
+
+#### docker
+cd into server
+
+build and launch the container
+> docker-compose up
+
+
+
+## usage
 
 
 ## MVP
@@ -35,11 +48,8 @@ pillarboxing : integer
 returns :
 status 200
 
-**v1 /api/effects/mask**
-GET
 
-returns :
-x1,y1,x2,y2 (pixels)
+**v1 /api/novel/responses**
 
 ## back
 python flask server or laravel ? or node ?

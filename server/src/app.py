@@ -1,11 +1,11 @@
 from functools import wraps
-from flask import Flask, Response, render_template, request
+from flask import Flask, Response, render_template, request, jsonify
+
 
 
 import os
 from time import sleep
 import json
-from flask import jsonify
 
 
 import logging
@@ -57,8 +57,8 @@ def pitterboxing():
         sumLetterboxing = data['sumLetterboxing']
         sumPillarboxing = data['sumPillarboxing']
         return jsonify(
-            var1 = sumLetterboxing,
-            var2 = sumPillarboxing
+            sumLetterboxing = sumLetterboxing,
+            sumPillarboxing = sumPillarboxing
         )
     if request.method == 'DELETE':
         data = {
